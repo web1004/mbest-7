@@ -1,0 +1,48 @@
+/* 애니메이션 키프레임 */
+
+
+
+/* 로고 */
+@keyframes logoAni{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/* 화살표 */
+@keyframes arrowAni{
+  0%{transform: translateY(-10px);}
+  100%{transform: translateY(10px);}
+}
+
+/* 물결 */
+@keyframes wave{
+  0%{left: 0%;}
+  100%{left: -500%;}
+}
+@keyframes wavy95{
+  0%{top: 100%;}
+  100%{top: 20%;}
+}
+@keyframes wavy90 {
+  0%{top: 100%;}
+  100%{top: 30%;}
+}
+@keyframes wavy85{
+  0%{top: 100%;}
+  100%{top: 40%;}
+}
+
+/* 이미지 둥실 */
+@keyframes imgAni{
+  0%{transform:translateY(-15%);}
+  50%{transform:translateY(0%);}
+  100%{transform:translateY(-15%);}
+}
+
+/* 폰 짤랑 */
+@keyframes phoneAni{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(3deg);}
+  75%{transform: rotate(-3deg);}
+  100%{transform: rotate(0deg);}
+}
